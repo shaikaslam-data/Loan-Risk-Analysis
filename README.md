@@ -7,10 +7,15 @@ This project focuses on building an end-to-end Bank Loan Risk Analytics and Pred
 ### The project combines:
 
 SQL-based analytical reporting
+
 Advanced Exploratory Data Analysis (EDA)
+
 Statistical hypothesis testing
+
 Predictive modeling using Logistic Regression
+
 Interactive Power BI dashboards
+
 Streamlit deployment for real-time prediction
 
 The complete workflow simulates a real-world banking risk analytics pipeline used in modern financial institutions.
@@ -20,18 +25,27 @@ The complete workflow simulates a real-world banking risk analytics pipeline use
 Banks face significant losses due to:
 
 approving high-risk customers
+
 hidden behavioral risk patterns
+
 over-leveraged borrowers
+
 customers with aggressive credit demand
+
 weak traditional approval policies
 
-The objective of this project is to:
+### The objective of this project is to:
 
 ✔ Identify high-risk borrowers
+
 ✔ Detect hidden behavioral risk
+
 ✔ Improve loan approval quality
+
 ✔ Reduce future defaults
+
 ✔ Build interpretable risk analytics system
+
 ✔ Enable real-time risk prediction
 
 ### Dataset Description
