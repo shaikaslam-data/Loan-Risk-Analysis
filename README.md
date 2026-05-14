@@ -421,5 +421,4 @@ Streamlit
 Streamlit Community Cloud
 
 ## View the Model
-loan-default-app-doavvhrbjcp9mdiv3fxrcp.streamlit.app
-https://github.com/shaikaslam-data/Loan-Risk-Analysis/edit/main/README.md
+https://loan-default-app-doavvhrbjcp9mdiv3fxrcp.streamlit.app
