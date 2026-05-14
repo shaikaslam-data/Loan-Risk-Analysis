@@ -1,6 +1,11 @@
 # Loan-Risk-Analysis
 A data-driven loan risk analysis project using SQL, Power BI, and machine learning to identify high-risk customers and improve lending decisions.
 Loan Risk Analytics & Prediction System
+
+## View the Model
+
+https://loan-default-app-doavvhrbjcp9mdiv3fxrcp.streamlit.app
+
 ### Project Overview
 This project focuses on building an end-to-end Bank Loan Risk Analytics and Prediction System to help financial institutions minimize credit losses, identify risky applicants, and make data-driven loan approval decisions.
 
