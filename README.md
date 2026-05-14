@@ -139,6 +139,7 @@ binary categories → integer flags
 Instead of traditional basic EDA, the project focused on discovering behavioral and portfolio-level risk insights.
 
 ### Key Advanced Insights
+
 **Credit Hunger Signal**
 
 Customers with high recent enquiry activity showed significantly higher default probability.
