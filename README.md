@@ -144,53 +144,54 @@ Instead of traditional basic EDA, the project focused on discovering behavioral 
 
 Customers with high recent enquiry activity showed significantly higher default probability.
 
-Insight
+**Insight**
 
 Aggressive credit-seeking behavior acts as an early warning signal for financial stress.
 
-Over-Leveraging Risk
+**Over-Leveraging Risk**
 
 Customers with high credit utilization ratios exhibited substantially elevated risk.
 
-Insight
+**Insight**
 
 Heavy dependency on existing credit exposure indicates repayment pressure.
 
- Silent Risk Customers
+ **Silent Risk Customers**
 
 Detected customers with:
 
 no delinquency history
 but high predicted risk probability
-Insight
+
+**Insight**
 
 Traditional delinquency-based approval systems may miss hidden risky borrowers.
 
- Risk Amplification Effect
+ **Risk Amplification Effect**
 
 Simultaneous high enquiries and high utilization created amplified default risk.
 
-Insight
+**Insight**
 
 Combined behavioral factors are more dangerous than individual factors alone.
 
- Behavioral Instability Detection
+ **Behavioral Instability Detection**
 
 Sudden spikes in recent enquiries were identified as strong distress indicators.
 
-Insight
+**Insight**
 
 Behavior volatility is an important early-stage credit deterioration signal.
 
- Portfolio Risk Concentration
+ **Portfolio Risk Concentration**
 
 A small segment of customers contributed disproportionately to total portfolio risk.
 
-Insight
+**Insight**
 
 Targeted monitoring of top-risk segments can significantly reduce losses.
 
- Statistical Analysis
+ **Statistical Analysis**
 
 The project included statistical validation of important risk drivers.
 
