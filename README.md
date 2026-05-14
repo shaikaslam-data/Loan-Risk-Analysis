@@ -53,6 +53,7 @@ weak traditional approval policies
 The dataset contains customer-level credit behavior, delinquency, loan exposure, enquiry behavior, demographic, and repayment-related features.
 
 Major Feature Categories
+
 Customer Profile
 age
 gender
@@ -90,54 +91,65 @@ unsecured_tl
 
 The dataset underwent extensive preprocessing before modeling.
 
-✔ Missing Value Treatment
+**✔ Missing Value Treatment**
 
 Handled missing values using:
 
 mean imputation
+
 median imputation
+
 mode replacement
+
 business-rule based filling
 
-✔ Outlier Treatment
+**✔ Outlier Treatment**
 
 Applied percentile-based clipping:
 
 lower bound = 1st percentile
+
 upper bound = 99th percentile
 
 This reduced extreme value influence without removing records.
 
-✔ Feature Encoding
+**✔ Feature Encoding**
 
 Performed encoding for categorical variables:
 
 Label Encoding
+
 One-Hot Encoding
 
 Examples:
 
 gender
+
 maritalstatus
+
 education
+
 loan type indicators
 
-✔ Feature Scaling
+**✔ Feature Scaling**
 
 Applied scaling for numerical stability during modeling.
 
 Methods used:
 
 StandardScaler
+
 MinMaxScaler (where required)
 
-✔ Data Type Corrections
+**✔ Data Type Corrections**
 
 Converted:
 
 object → numeric
+
 binary categories → integer flags
- Advanced Exploratory Data Analysis (EDA)
+
+ ### Advanced Exploratory Data Analysis (EDA)
 
 Instead of traditional basic EDA, the project focused on discovering behavioral and portfolio-level risk insights.
 
