@@ -206,160 +206,220 @@ A small segment of customers contributed disproportionately to total portfolio r
 
 Targeted monitoring of top-risk segments can significantly reduce losses.
 
- **Statistical Analysis**
+ ### Statistical Analysis
 
 The project included statistical validation of important risk drivers.
 
- Hypothesis Testing
-✔ t-Test
+ **Hypothesis Testing**
+ 
+**✔ t-Test**
 
 Used to compare numerical features between risky and safe customers.
 
 Example Tests
+
 Credit Score Difference
+
 Utilization Difference
+
 Employment Stability Difference
+
 Enquiry Behavior Difference
-✔ ANOVA
+
+**✔ ANOVA**
 
 Used to compare risk across multiple customer groups.
 
 Example Tests
+
 Risk across Credit Score Bands
+
 Risk across Income Buckets
+
 Risk across Utilization Groups
-✔ Chi-Square Test
+
+**✔ Chi-Square Test**
 
 Used for categorical relationship validation.
 
 Example Tests
+
 Loan Type vs Risk
+
 Marital Status vs Risk
+
 Gender vs Risk
- Predictive Modeling
 
-A Logistic Regression model was built to predict loan risk.
+Predictive Modeling
 
- Feature Selection Techniques
+### A Logistic Regression model was built to predict loan risk.
+
+**Feature Selection Techniques**
 
 Multiple feature selection methods were applied:
 
-✔ ANOVA Feature Significance
+**✔ ANOVA Feature Significance**
 
 Selected statistically important variables using p-values.
 
-✔ Recursive Feature Elimination (RFE)
+**✔ Recursive Feature Elimination (RFE)**
 
 Used iterative model-based feature ranking.
 
-✔ Variance Inflation Factor (VIF)
+**✔ Variance Inflation Factor (VIF)**
 
 Removed multicollinearity among selected variables.
 
-✔ Weight of Evidence (WOE) & Information Value (IV)
+**✔ Weight of Evidence (WOE) & Information Value (IV)**
 
 Used to evaluate predictive strength of variables.
 
- Final Model
-Model Used
-Logistic Regression
-Why Logistic Regression?
-highly interpretable
-suitable for binary classification
-widely used in banking risk systems
- Model Evaluation
 
-The model was evaluated using multiple classification metrics.
+### The model was evaluated using multiple classification metrics.
 
-✔ Evaluation Metrics
+**✔ Evaluation Metrics**
+
 Accuracy
+
 Precision
+
 Recall (Sensitivity)
+
 Specificity
+
 ROC-AUC
+
 Confusion Matrix
-✔ Threshold Optimization
+
+**✔ Threshold Optimization**
 
 Optimal classification threshold selected using:
 
 ROC analysis
+
 business trade-off evaluation
-✔ Final Performance
+
+**✔ Final Performance**
 
 The model achieved:
 
 high sensitivity
+
 strong specificity
+
 strong precision
+
 effective risk separation
- Power BI Dashboard
+
+ ### Power BI Dashboard
 
 Developed advanced interactive dashboards for banking decision-making.
 
- Dashboard Modules
-Executive Risk Overview Dashboard
+ ### Dashboard Modules
+ 
+**(1) Executive Risk Overview Dashboard**
 
 Focused on:
 
 portfolio health
+
 approval quality
+
 risk exposure
+
 customer segmentation
-Risk Driver Analytics Dashboard
+
+**(2) Risk Driver Analytics Dashboard**
 
 Focused on:
 
 behavioral risk drivers
+
 utilization stress
+
 enquiry behavior
+
 amplification effects
-Predictive Risk Monitoring Dashboard
+
+**(3) Predictive Risk Monitoring Dashboard**
 
 Focused on:
 
 predicted risk probability
+
 high-risk concentration
+
 model-driven insights
+
 decision simulation
+
 Advanced KPIs
 
-Created advanced banking KPIs using DAX.
+***Created advanced banking KPIs using DAX.**
 
 Examples:
 
 Behavioral Instability Index
+
 Credit Dependency Ratio
+
 Driver Impact
+
 Risk Concentration Ratio
+
 Portfolio Exposure Metrics
+
 Early Risk Ratio
- Streamlit Deployment
 
-The final model was deployed using Streamlit Community Cloud for real-time loan risk prediction.
+Streamlit Deployment
 
-Deployment Features
+### The final model was deployed using Streamlit Community Cloud for real-time loan risk prediction.
+
+**Deployment Features**
 
 Users can:
 
 ✔ Input customer information
+
 ✔ Predict loan risk instantly
+
 ✔ View approval probability
+
 ✔ Understand risk indicators
 
- Tech Stack
+ **Tech Stack**
 Programming & Analytics
+
 Python
+
 Pandas
+
 NumPy
+
 Scikit-learn
+
 Statsmodels
+
 SciPy
+
 Visualization
+
 Matplotlib
+
 Seaborn
+
 Power BI
+
 Database
+
 SQL Server
+
 Deployment
+
 Streamlit
+
 Streamlit Community Cloud
+
+## View the Model
+loan-default-app-doavvhrbjcp9mdiv3fxrcp.streamlit.app
+https://github.com/shaikaslam-data/Loan-Risk-Analysis/edit/main/README.md
