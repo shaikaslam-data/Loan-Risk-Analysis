@@ -98,6 +98,7 @@ mean imputation
 median imputation
 mode replacement
 business-rule based filling
+
 ✔ Outlier Treatment
 
 Applied percentile-based clipping:
@@ -120,6 +121,7 @@ gender
 maritalstatus
 education
 loan type indicators
+
 ✔ Feature Scaling
 
 Applied scaling for numerical stability during modeling.
@@ -128,6 +130,7 @@ Methods used:
 
 StandardScaler
 MinMaxScaler (where required)
+
 ✔ Data Type Corrections
 
 Converted:
